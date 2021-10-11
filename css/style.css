@@ -1,0 +1,77 @@
+/* general / site wide */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ededed;
+
+}
+
+/* header */
+
+.header-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    padding: 5px 0 25px 0;
+    gap: 5px;
+}
+
+.header-grid a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: #cccccc;
+    padding: 5px;
+}
+
+.header-grid a:hover {
+    background-color: #bbbbbb;
+}
+
+/* home intro */
+
+.home-intro {
+    display: grid;
+    padding: 5px 0 25px 0;
+}
+
+.home-intro .name {
+    font-size: 2em;
+}
+
+.home-intro p .short-para {
+    font-size: 1em;
+}
+
+.home-intro .links {
+    font-size: 1em;
+}
+
+/* about */
+
+.about {
+    display: grid;
+    padding: 5px 0 25px 0;
+    justify-content: center;
+}
+
+.about .image {
+    text-align: center;
+}
+
+.about img {
+    width: 200px;
+    filter: grayscale(100%);
+}
+
+.about div.about-text {
+    max-width: 500px;
+}
+
+.about div.about-text li {
+    padding-bottom: 5px;
+}

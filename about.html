@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ishan Mishra</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+                $("#header").load("header.html"); 
+            });
+        </script> 
+    </head>
+
+    <body>
+        <div id="header"></div>
+        
+        <div class="about">
+            <div></div>
+            <div class="image">
+                <img src="assets/images/self.jpeg" alt="portrait"/>
+            </div>
+            <div class="about-text">
+                <p>
+                    Engineer from Vancouver, BC who enjoys working on projects that solve interesting problems. 
+                    I've worked on a wide variety of high-impact projects such as,
+                </p>
+                <ul>
+                    <li>catharsis of a startup's legacy billing system, then rebuilding the billing system in Stripe, including an in-house invoice rendering system saving the company 1% in revenue yearly</li>
+                    <li>building the next version of AWS Kinesis Data Firehose service's data ingestion system from scratch to support throughput of up to 100gb/s per instance (took the service component through the design, development, and testing phases to get it ready for production)</li>
+                </ul>
+                <p>
+                    My strengths lie in my core ability to recognize what I need to learn, efficiently acquire that knowledge, and use that knowledge to solve impactful problems.
+                </p>
+            </div>
+        </div>
+    </body>
+
+</html>
